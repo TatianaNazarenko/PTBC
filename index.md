@@ -8,4 +8,5 @@
 - Excluded: **Duration.of.2nd.stage..MIN.**, **Duration.of.active.second.stage..MIN.**, 
 **Largest.length**,**Depth**, **Width.Largest**,**RMT**,**AMT**  (reason: a lot of missing values (more than 50%))
 ## Table of signs
+![Image](Table.png)
 ## 
