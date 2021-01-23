@@ -27,8 +27,8 @@
 2. For each model repeated 10 times:
 - Randomly split dataset on Train (75%) and Test (25%)
 - Using Train set: 
--- I. Find the best lamda for Lasso (glmnet, alpha = 1) by crossvalidation (nFold=3)
--- II. Train glmnet model with alpha = 1 and the best lamda 
--- III. Calculate AUC on Train and Test and plot results
+  I. Find the best lamda for Lasso (glmnet, alpha = 1) by crossvalidation (nFold=3)
+  II. Train glmnet model with alpha = 1 and the best lamda 
+  III. Calculate AUC on Train and Test and plot results
 # Results:
 ![Image](Results.png)
