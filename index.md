@@ -16,6 +16,7 @@
 - P2 ~ f1 (*model for prediction Cervical.length_binary based on f1 signs*)
 - P2 ~ f2 (*model for prediction Cervical.length_binary based on f2 signs*)
 - P2 ~ f3 (*model for prediction Cervical.length_binary based on f3 signs*)
+
 ## Procedure:
 1. Exclude samples with missing values:
 - P1 ~ f1 (*Excluded: 41 samples, rest: 0 - 124,1 - 20)
@@ -30,5 +31,6 @@
   I. Find the best lamda for Lasso (glmnet, alpha = 1) by crossvalidation (nFold=3)
   II. Train glmnet model with alpha = 1 and the best lamda 
   III. Calculate AUC on Train and Test and plot results
+  
 # Results:
 ![Image](Results.png)
