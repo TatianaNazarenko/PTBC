@@ -142,7 +142,7 @@
 - GLM
 - ExtraTrees
 
-## Types of building
+## Types of building (LOOCV - pessimistic AUC, Full - optimistic AUC)
 - *LOOCV* (The purpose of this check is to make sure that the chosen method of the model does not lead to its overfitting and allows it to be applied to other data): 
 1. Each point is excluded from the dataset
 2. The model is built using the remaining points
