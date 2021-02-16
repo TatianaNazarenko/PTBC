@@ -1,6 +1,18 @@
 [old page](old.md)
 
 Models
+<details>
+  <summary>SPTB</summary>
+  <br> (the same as the previous one)
+  <br>
+  <pre>
+    | Type                 | AUC (95% CI)        | Final model                                |
+    |----------------------|---------------------|--------------------------------------------|       
+    | proteomic            | 0.729 (0.540-0.917) | PGLYRP2, KLKB1                             |
+
+  </pre>
+</details>
+
 1. SPTB
 - excluded features 
 2. SPTB
