@@ -21,4 +21,16 @@ Models
 
 ![Image](./data/one_param_tests.png)
 
+![Image](./data/1common.png)
+![Image](./data/2common.png)
+![Image](./data/3common.png)
+![Image](./data/4common.png)
+![Image](./data/5common.png)
+![Image](./data/6common.png)
+![Image](./data/7common.png)
+![Image](./data/8common.png)
+![Image](./data/9common.png)
+![Image](./data/10common.png)
+
+
 
