@@ -178,7 +178,8 @@
 ![Image](./data/10common.png)
 
 
-
+# Fig for main parameters
+![Image](./data/main.png)
 
 
 
