@@ -15,7 +15,7 @@ Models
 </details>
 
 <details>
-  <summary>SPTB</summary>
+  <summary>SPTB: excluded samples PBI == 1 and CL < 0.25 == 1 </summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -27,7 +27,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>SPTB or PBI</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -39,7 +39,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>SPTB or CL < 0.25</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -51,7 +51,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>PBI</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -63,7 +63,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>PBI (excluded samples with SPTB == 1)</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -75,7 +75,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>CL < 0.25</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -88,7 +88,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>CL < 0.25 (excluded samples with SPTB == 1) </summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -100,7 +100,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>PBI: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -112,7 +112,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>SPTB</summary>
+  <summary>CL < 0.25: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"	</summary>
   <br> (the same as the previous one)
   <br>
   <pre>
@@ -137,8 +137,7 @@ Models
 7. CL < 0.25						
 8. CL < 0.25 
 - excluded SPTB == 1
-9. PBI 					
-10. CL < 0.25 investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"	
+
 
 
 ![Image](./data/multiparam_glm.png)
