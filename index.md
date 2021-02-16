@@ -137,7 +137,21 @@
 
 
 # Results
+## Models
+*(catch different data features)*
+- GLM
+- ExtraTrees
 
+## Types of building
+- *LOOCV* (The purpose of this check is to make sure that the chosen method of the model does not lead to its overfitting and allows it to be applied to other data): 
+-- Each point is excluded from the dataset
+-- The model is built using the remaining points
+-- Using the constructed model, the thrown out point receives a prediction (the probability of belonging to a class of cases)
+-- The final ROC is based on these predictions
+
+- *Full*: The model is built on all data (the AUC estimates in this case are overestimated, since the model overfitted)
+
+## Colors
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `(scar) parameters`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `(mather + previous pregnancy) parameters`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `(scar) + (mather + previous pregnancy)  parameters`
