@@ -3,7 +3,7 @@
 Models
 <details>
   <summary>1. SPTB</summary>
-  <br> (the same as the previous one)
+  <br> were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -16,7 +16,7 @@ Models
 
 <details>
   <summary>2. SPTB: excluded samples PBI == 1 and CL < 0.25 == 1 </summary>
-  <br> (the same as the previous one)
+  <br> were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
