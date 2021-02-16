@@ -1,6 +1,6 @@
 [old page](old.md)
 
-Models
+# Models
 <details>
   <summary>1. SPTB</summary>
   <br> - were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
@@ -127,24 +127,49 @@ Models
   </pre>
 </details>
 
-
-
-
-
-![Image](./data/multiparam_glm.png)
+# (One-parametr) Comparison between the Control and Case groups was by chi- square test for categorical variables and Wilcoxon test for continuous variables.
 
 ![Image](./data/one_param_tests.png)
 
+# (Multi-parametr) logistic regression (significance of coefficients)
+![Image](./data/multiparam_glm.png)
+
+
+
+# Results
+
+## 1. SPTB
 ![Image](./data/1common.png)
+## 2. SPTB: excluded samples PBI == 1 and CL < 0.25 == 1
 ![Image](./data/2common.png)
+## 3. SPTB or PBI
 ![Image](./data/3common.png)
+## 4. SPTB or CL < 0.25
 ![Image](./data/4common.png)
+## 5. PBI
 ![Image](./data/5common.png)
+## 6. PBI (excluded samples with SPTB == 1)
 ![Image](./data/6common.png)
+## 7. CL < 0.25
 ![Image](./data/7common.png)
+## 8. CL < 0.25 (excluded samples with SPTB == 1)
 ![Image](./data/8common.png)
+## 9: PBI: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"
 ![Image](./data/9common.png)
+## 10. CL < 0.25: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"
 ![Image](./data/10common.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
