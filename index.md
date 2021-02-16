@@ -3,8 +3,8 @@
 Models
 <details>
   <summary>1. SPTB</summary>
-  <br> were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
-  <br> samples were excluded if they have any parameters as NA
+  <br> - were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
+  <br> - samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -17,7 +17,8 @@ Models
 
 <details>
   <summary>2. SPTB: excluded samples PBI == 1 and CL < 0.25 == 1 </summary>
-  <br> were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
+  <br>  - were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
+  <br> - samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -29,7 +30,7 @@ Models
 </details>
 <details>
   <summary>3. SPTB or PBI</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -41,7 +42,7 @@ Models
 </details>
 <details>
   <summary>4. SPTB or CL < 0.25</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -53,7 +54,7 @@ Models
 </details>
 <details>
   <summary>5. PBI</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -65,7 +66,7 @@ Models
 </details>
 <details>
   <summary>6. PBI (excluded samples with SPTB == 1)</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -77,7 +78,7 @@ Models
 </details>
 <details>
   <summary>7. CL < 0.25</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -90,7 +91,7 @@ Models
 </details>
 <details>
   <summary>8. CL < 0.25 (excluded samples with SPTB == 1) </summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -102,7 +103,7 @@ Models
 </details>
 <details>
   <summary>9: PBI: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
@@ -114,7 +115,7 @@ Models
 </details>
 <details>
   <summary>CL < 0.25: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"	</summary>
-  <br> (the same as the previous one)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
