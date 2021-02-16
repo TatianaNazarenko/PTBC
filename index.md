@@ -4,6 +4,7 @@ Models
 <details>
   <summary>1. SPTB</summary>
   <br> were excluded "Pyrexia.in.labour.or.postpartum","FDCS.pregnancy.birth.weight..g.", "Uterine.Extensions", "Cervical.lacerations" (a lot of NA for SPTB)
+  <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
 | model                              | N   | cases | controls | features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | number |
