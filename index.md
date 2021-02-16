@@ -114,7 +114,7 @@ Models
   </pre>
 </details>
 <details>
-  <summary>CL < 0.25: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"	</summary>
+  <summary>10. CL < 0.25: investigate "Largest.length","Depth", "Width.Largest", "RMT", "AMT"	</summary>
   <br> samples were excluded if they have any parameters as NA
   <br>
   <pre>
