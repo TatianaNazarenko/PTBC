@@ -144,10 +144,10 @@
 
 ## Types of building
 - *LOOCV* (The purpose of this check is to make sure that the chosen method of the model does not lead to its overfitting and allows it to be applied to other data): 
--- Each point is excluded from the dataset
--- The model is built using the remaining points
--- Using the constructed model, the thrown out point receives a prediction (the probability of belonging to a class of cases)
--- The final ROC is based on these predictions
+1. Each point is excluded from the dataset
+2. The model is built using the remaining points
+3. Using the constructed model, the thrown out point receives a prediction (the probability of belonging to a class of cases)
+4. The final ROC is based on these predictions
 
 - *Full*: The model is built on all data (the AUC estimates in this case are overestimated, since the model overfitted)
 
