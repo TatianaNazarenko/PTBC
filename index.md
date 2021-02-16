@@ -2,7 +2,7 @@
 
 ![Image](./data/multiparam_glm.png)
 
-![Image](./one_param_tests.png)
+![Image](./data/one_param_tests.png)
 
 
 
