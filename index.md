@@ -127,7 +127,7 @@
   </pre>
 </details>
 
-# (One-parametr) Comparison between the Control and Case groups was by chi- square test for categorical variables and Wilcoxon test for continuous variables.
+# (One-parametr) Comparison between the Control and Case groups was by chi- square test for categorical variables and Wilcoxon test for continuous variables
 
 ![Image](./data/one_param_tests.png)
 
