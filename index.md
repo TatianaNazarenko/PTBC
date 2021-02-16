@@ -1,8 +1,8 @@
 [old page](old.md)
 
-![Image](multiparam_glm.png)
+![Image](./data/multiparam_glm.png)
 
-![Image](one_param_tests.png)
+![Image](./one_param_tests.png)
 
 
 
