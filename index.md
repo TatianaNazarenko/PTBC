@@ -16,20 +16,29 @@
 
 # Strategies
 ## Main comment:
-Strategy II is more correct for presentation in the publication. Strategy I is presented here only to show that it does not work (that is, the desire to study features with a large number of missing values leads to a strong decrease in number of samples and the inability to build models correctly).
+Strategy I is more correct for presentation in the publication. Strategy II is presented here only to show that it does not work (that is, the desire to study features with a large number of missing values leads to a strong decrease in number of samples and the inability to build models correctly).
 
-## I. Save more features by removing samples with missing values.
+## I. Save more samples by removing features with a large number of missing values.
+### Rule of preprocessing:
+1. Good feature (saved in the data): If the feature contains 0 missing values.
+2. Corrected feature (saved in the data after correction): If the feature contains <= 10% of missing values, then the missing values are filled with the average of the feature.
+3. Excluded feature (removed from data): If the feature contains > 10% of missing values.
+### Results
+
+[ - Original data](str1_original.md)
+[ - Excluded samples with Previous.SPTB == 1 (and sign Previous.SPTB respectively)](str1_exclSPTB.md)
+[ - Excluded samples with Previous.PPROM == 1 (and sign Previous.PPROM respectively)](str1_exclPPROM.md)
+[ - Excluded samples with Previous.late.miscarriage == 1 (and sign Previous.late.miscarriage respectively)](str1_exclLM.md)
+
+## II. Save more features by removing samples with missing values.
 ### Rule of preprocessing:
 1. Only those features are excluded if there are less than 6 "non-missing values" in the case group.
 2. Then, samples are excluded if they contain at least one missing value in the data.
 ### Results
-#### AAA
-## II. Save more samples by removing features with a large number of missing values.
-### Rule of preprocessing:
-
-1. Good feature (saved in the data): If the feature contains 0 missing values.
-2. Corrected feature (saved in the data after correction): If the feature contains <= 10% of missing values, then the missing values are filled with the average of the feature.
-3. Excluded feature (removed from data): If the feature contains > 10% of missing values.
+[ - Original data](str2_original.md)
+[ - Excluded samples with Previous.SPTB == 1 (and sign Previous.SPTB respectively)](str2_exclSPTB.md)
+[ - Excluded samples with Previous.PPROM == 1 (and sign Previous.PPROM respectively)](str2_exclPPROM.md)
+[ - Excluded samples with Previous.late.miscarriage == 1 (and sign Previous.late.miscarriage respectively)](str2_exclLM.md)
 
 
 
