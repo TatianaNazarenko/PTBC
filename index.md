@@ -22,12 +22,13 @@ Strategy II is more correct for presentation in the publication. Strategy I is p
 ### Rule of preprocessing:
 1. Only those features are excluded if there are less than 6 "non-missing values" in the case group.
 2. Then, samples are excluded if they contain at least one missing value in the data.
-
+### Results
+#### AAA
 ## II. Save more samples by removing features with a large number of missing values.
 ### Rule of preprocessing:
 
-1. Good feature (saved in the data): If the feature contains 0 missing values.\\
-2. Corrected feature (saved in the data after correction): If the feature contains <= 10% of missing values, then the missing values are filled with the average of the feature.\\
+1. Good feature (saved in the data): If the feature contains 0 missing values.
+2. Corrected feature (saved in the data after correction): If the feature contains <= 10% of missing values, then the missing values are filled with the average of the feature.
 3. Excluded feature (removed from data): If the feature contains > 10% of missing values.
 
 
