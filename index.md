@@ -25,9 +25,12 @@ Strategy I is more correct for presentation in the publication. Strategy II is p
 3. Excluded feature (removed from data): If the feature contains > 10% of missing values.
 ### Results
 
-[ - Original data](str1_original.md)\\
+[ - Original data](str1_original.md)
+
 [ - Excluded samples with Previous.SPTB == 1 (and sign Previous.SPTB respectively)](str1_exclSPTB.md)
+
 [ - Excluded samples with Previous.PPROM == 1 (and sign Previous.PPROM respectively)](str1_exclPPROM.md)
+
 [ - Excluded samples with Previous.late.miscarriage == 1 (and sign Previous.late.miscarriage respectively)](str1_exclLM.md)
 
 ## II. Save more features by removing samples with missing values.
@@ -36,8 +39,11 @@ Strategy I is more correct for presentation in the publication. Strategy II is p
 2. Then, samples are excluded if they contain at least one missing value in the data.
 ### Results
 [ - Original data](str2_original.md)
+
 [ - Excluded samples with Previous.SPTB == 1 (and sign Previous.SPTB respectively)](str2_exclSPTB.md)
+
 [ - Excluded samples with Previous.PPROM == 1 (and sign Previous.PPROM respectively)](str2_exclPPROM.md)
+
 [ - Excluded samples with Previous.late.miscarriage == 1 (and sign Previous.late.miscarriage respectively)](str2_exclLM.md)
 
 
