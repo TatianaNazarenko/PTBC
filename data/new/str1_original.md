@@ -1,10 +1,10 @@
 
 # (One-parametr) Comparison between the Control and Case groups was by chi- square test for categorical variables and Wilcoxon test for continuous variables
 
-![Image](./data/new/original_common_one_2.png)
+![Image](original_common_one_2.png)
 
 # (Multi-parametr) logistic regression (significance of coefficients)
-![Image](./data/new/original_common_all_2.png)
+![Image](original_common_all_2.png)
 
 
 
@@ -25,5 +25,5 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `(scar) + (mather + previous pregnancy) parameters`
 
 ## AUCs
-![Image](./data/new/original_2fig.png)
+![Image](original_2fig.png)
 
