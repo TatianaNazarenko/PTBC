@@ -33,6 +33,8 @@ Strategy I is more correct for presentation in the publication. Strategy II is p
 
 [ - Excluded samples with Previous.late.miscarriage == 1 (and sign Previous.late.miscarriage respectively)](/data/new/str1_exclLM.md)
 
+[ - Special Case for SPTB with categorical values of SCAR](/data/new/str1_SPTB.md)
+
 ## II. Save more features by removing samples with missing values.
 ### Rule of preprocessing:
 1. Only those features are excluded if there are less than 6 "non-missing values" in the case group.
@@ -46,7 +48,7 @@ Strategy I is more correct for presentation in the publication. Strategy II is p
 
 [ - Excluded samples with Previous.late.miscarriage == 1 (and sign Previous.late.miscarriage respectively)](/data/new/str2_exclLM.md)
 
-
+[ - Special Case for SPTB with categorical values of SCAR](/data/new/str2_SPTB.md)
 
 
 
