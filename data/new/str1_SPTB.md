@@ -1,4 +1,16 @@
+- Found the best threshold for SCAR (or for ABS SCAR) as a separator for samples with PBI = 1 and PBI = 0;
 
+![Image](SCAR_both.png)
+
+- Removed samples with PBI = 1 from data and applied the best threshold to create a binary (categorical) sign and added it to models.
+
+# Models
+
+1. SPTB (with Shortest.cervical.length measurement and BINARY SCAR)
+2. SPTB (with BINARY SCAR)
+3. SPTB (with Shortest.cervical.length measurement and BINARY ABS SCAR)
+4. SPTB (with BINARY ABS SCAR)
+            
 # (One-parametr) Comparison between the Control and Case groups was by chi- square test for categorical variables and Wilcoxon test for continuous variables
 
 ![Image](SPTB_common_one_2.png)
