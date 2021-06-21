@@ -4,6 +4,19 @@
 
 - Removed samples with PBI = 1 from data and applied the best threshold to create a binary (categorical) sign and added it to models.
 
+<details>
+  <summary>MODELS INFO </summary>
+            
+**1** SAMPLES=180: CASES/CONTROLS: 6/174; FEATURES: Excluded (5):Pyrexia.in.labour.or.postpartum,Interpregnancy.interval,Duration.of.2nd.stage..MIN.,Duration.of.active.second.stage..MIN.,Fetal.fibronectin.value..ng.ml.; FEATURES: With NA (5):Trial.of.intrumental.delivery,Uterine.Extensions,Cervical.lacerations,Shortest.scar.distance.to.internal.os_BY_PBI,FDCS.pregnancy.birth.weight..g.; FEATURES: Good (21):White,Black,South.East.Asian,Others,Smoking.History,Previous.SPTB,Previous.PPROM,Previous.late.miscarriage,Cervical.Surgery,Uterine.anomaly,History.of.recurrent.UTI.in.pregnancy,BMI,Age.at.del,Gravida,Parity,number_Previous.SPTB,number_Previous.PPROM,number_Previous.late.miscarriage,number_Cervical.Surgery,number_previous.FDCS,Shortest.cervical.length.14_24
+            
+**2** SAMPLES=180: CASES/CONTROLS: 6/174; FEATURES: Excluded (5):Pyrexia.in.labour.or.postpartum,Interpregnancy.interval,Duration.of.2nd.stage..MIN.,Duration.of.active.second.stage..MIN.,Fetal.fibronectin.value..ng.ml.; FEATURES: With NA (5):Trial.of.intrumental.delivery,Uterine.Extensions,Cervical.lacerations,Shortest.scar.distance.to.internal.os_BY_PBI,FDCS.pregnancy.birth.weight..g.; FEATURES: Good (20):White,Black,South.East.Asian,Others,Smoking.History,Previous.SPTB,Previous.PPROM,Previous.late.miscarriage,Cervical.Surgery,Uterine.anomaly,History.of.recurrent.UTI.in.pregnancy,BMI,Age.at.del,Gravida,Parity,number_Previous.SPTB,number_Previous.PPROM,number_Previous.late.miscarriage,number_Cervical.Surgery,number_previous.FDCS
+            
+**3** SAMPLES=180: CASES/CONTROLS: 6/174; FEATURES: Excluded (5):Pyrexia.in.labour.or.postpartum,Interpregnancy.interval,Duration.of.2nd.stage..MIN.,Duration.of.active.second.stage..MIN.,Fetal.fibronectin.value..ng.ml.; FEATURES: With NA (5):Trial.of.intrumental.delivery,Uterine.Extensions,Cervical.lacerations,Shortest.scar.distance.from.internal.os_BY_PBI,FDCS.pregnancy.birth.weight..g.; FEATURES: Good (21):White,Black,South.East.Asian,Others,Smoking.History,Previous.SPTB,Previous.PPROM,Previous.late.miscarriage,Cervical.Surgery,Uterine.anomaly,History.of.recurrent.UTI.in.pregnancy,BMI,Age.at.del,Gravida,Parity,number_Previous.SPTB,number_Previous.PPROM,number_Previous.late.miscarriage,number_Cervical.Surgery,number_previous.FDCS,Shortest.cervical.length.14_24
+            
+**4** SAMPLES=180: CASES/CONTROLS: 6/174; FEATURES: Excluded (5):Pyrexia.in.labour.or.postpartum,Interpregnancy.interval,Duration.of.2nd.stage..MIN.,Duration.of.active.second.stage..MIN.,Fetal.fibronectin.value..ng.ml.; FEATURES: With NA (5):Trial.of.intrumental.delivery,Uterine.Extensions,Cervical.lacerations,Shortest.scar.distance.from.internal.os_BY_PBI,FDCS.pregnancy.birth.weight..g.; FEATURES: Good (20):White,Black,South.East.Asian,Others,Smoking.History,Previous.SPTB,Previous.PPROM,Previous.late.miscarriage,Cervical.Surgery,Uterine.anomaly,History.of.recurrent.UTI.in.pregnancy,BMI,Age.at.del,Gravida,Parity,number_Previous.SPTB,number_Previous.PPROM,number_Previous.late.miscarriage,number_Cervical.Surgery,number_previous.FDCS
+
+</details> 
+
 # Models
 
 1. SPTB (with Shortest.cervical.length measurement and BINARY SCAR)
